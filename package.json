@@ -1,7 +1,7 @@
 {
   "name": "temple",
   "version": "0.1.0",
-  "homepage": "git@github.com:githubHemanth.github.io/temple",
+  "homepage": "https://githubHemanth.github.io/temple",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -20,7 +20,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build -b Testing_hosting",
+    "deploy": "gh-pages -d build -b main",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
