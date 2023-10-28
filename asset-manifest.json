@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/temple/static/css/main.1c56e8ef.css",
+    "main.js": "/temple/static/js/main.c9c07a5d.js",
+    "static/media/Sri_Venkateshawara_MahaLakshmi.png": "/temple/static/media/Sri_Venkateshawara_MahaLakshmi.441cd71f8afff0c1ddab.png",
+    "static/media/All_Dieties.png": "/temple/static/media/All_Dieties.19ec225a78f3fd069178.png",
+    "static/media/Lord_Siva_Abirami.png": "/temple/static/media/Lord_Siva_Abirami.5267a90ed7d50ae75450.png",
+    "static/media/templeHeader.png": "/temple/static/media/templeHeader.fa99efd7cf285c0c9ddf.png",
+    "index.html": "/temple/index.html",
+    "main.1c56e8ef.css.map": "/temple/static/css/main.1c56e8ef.css.map",
+    "main.c9c07a5d.js.map": "/temple/static/js/main.c9c07a5d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1c56e8ef.css",
+    "static/js/main.c9c07a5d.js"
+  ]
+}
