@@ -9,6 +9,10 @@ const CardGrid = styled.div`
   gap: 20px;
   margin-top: 20px;
   grid-auto-rows: minmax(250px, auto);
+
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
 `;
 
 const EventCard = styled.div`
@@ -19,13 +23,28 @@ const EventCard = styled.div`
   font-size: 1.5em;
 `;
 
+const ResponsiveTable = styled.table`
+  width: 100%;
+  @media (max-width: 768px) {
+    td {
+      display: block;
+      width: 100%;
+      box-sizing: border-box;
+      text-align: left;
+    }
+    td:last-child {
+      margin-top: 10px; // Adjust as needed
+    }
+  }
+`;
+
 const TempleServices = () => {
 
 
   return (
     <div className="home-container" style={{ padding:'40px' }}>
-    <div className="card1" style={{width:"1200px"}} >
-        <div className="title">Temple Expansion Program</div>
+    <div className="card1" >
+        <div className="title">Donations</div>
         <p><b>Sri Yoga Hanuman Temple is in need of immediate expansion. The temple is now in a rented premises with 
           the exorbitant rent. Furthermore, the space is very limited for our huge idols and it is insufficient to perform all the rituals.
            We do not have any facility for doing annadanam and yagam. In order to address this issue and better accommodate devotees, the temple urgently 
@@ -76,27 +95,26 @@ const TempleServices = () => {
         </EventCard>
         </CardGrid>
         <br/><br/>
-        <table width="100%">
-        <tbody>
-          <tr>
-          <td>
-              <div style={{ display: 'flex', alignItems: 'center' }}>
-                <img src={require('../InteracLogo 1.png')} alt="Interac logo" style={{ marginLeft: '60px' }}/>
-                <FaEnvelope style={{ margin:'15px' }} />
-                <b align="left" style={{ margin: '0' }}>yhbcca@gmail.com</b>
-              </div>
-        </td>
-        <td>
-            <div style={{ display: 'flex', justifyContent: 'flex-end', alignItems: 'center' , marginRight: '60px'}}>
-              <img src={require('../blank-check-cheque.png')} alt="cheque" />
-              <b style={{ marginLeft: '10px' }}>Payable at Sri Yoga Hanuman Cultural Society</b>
-            </div>
-        </td>
+        <ResponsiveTable>
+          <tbody>
+            <tr>
+              <td>
+                <div style={{ display: 'flex', justifyContent: 'flex-start', alignItems: 'center', marginRight: '60px' }}>
+                  <img src={require('./IconImages/InteracLogo 1.png')} alt="Interac logo" style={{ marginLeft: '10px' }} />
+                  <FaEnvelope style={{ margin: '10px' }} />
+                  <b align="left" style={{ margin: '10px' }}>yhbcca@gmail.com</b>
+                </div>
+              </td>
+              <td>
+                <div style={{ display: 'flex', justifyContent: 'flex-end', alignItems: 'center', marginRight: '60px' }}>
+                  <img src={require('./IconImages/blank-check-cheque.png')} alt="cheque" />
+                  <b style={{ marginLeft: '10px' }}>Payable at Sri Yoga Hanuman Cultural Society</b>
+                </div>
+              </td>
             </tr>
-            <br/><br/><br/><br/>
-            <tr><td colspan="2" align="center"><b>*Disclaimer: please approach your CPA for more details on Tax Credit</b></td></tr>
-            </tbody>
-            </table>
+            <tr><td colSpan="2" align="center"><b>*Disclaimer: please approach your CPA for more details on Tax Credit</b></td></tr>
+          </tbody>
+        </ResponsiveTable>
       {/* Add page content */}
       </div>
     </div>

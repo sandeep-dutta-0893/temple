@@ -23,16 +23,16 @@ const Footer = () => {
             <td className="right-section">
               <h3>Temple Hours</h3>
               <p><FaClock />&nbsp;&nbsp;Mon-Fri: 8AM to 12PM & 3PM to 8PM</p>
-              <p>Sat-Sun: 9AM to 1PM & 3PM to 8PM</p>
+              <p>Sat-Sun: 9AM to 1PM & 3PM to 8PM</p><br></br><br></br>
             </td>
           </tr>
           <tr>
             <td colSpan="2" className="social-section">
               <h3>Follow Us:&nbsp;
-              <a href="/"><AiFillInstagram /></a>
-              <a href="/"><AiFillFacebook /></a>
-              <a href="/"><AiFillYoutube /></a>
-              <a href="/"><AiOutlineWhatsApp /></a></h3>
+              <a href="https://instagram.com/yogahanumantemplesurrey?igshid=OGQ5ZDc2ODk2ZA==" target="_blank" rel="noopener noreferrer"><AiFillInstagram /></a>
+              <a href="https://www.facebook.com/sriyogahanumantemple?mibextid=LQQJ4d" target="_blank" rel="noopener noreferrer"><AiFillFacebook /></a>
+              <a href="https://youtube.com/@yogahanumanculturalsociety?si=wbBtGgJkag8NpfMy" target="_blank" rel="noopener noreferrer"><AiFillYoutube /></a>
+              <a href="https://chat.whatsapp.com/CMuu3IemD105rdw2MIz8TJ" target="_blank" rel="noopener noreferrer"><AiOutlineWhatsApp /></a></h3>
             </td>
           </tr>
           <tr>

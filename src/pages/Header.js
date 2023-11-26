@@ -25,16 +25,16 @@ const Header = () => {
     
     <header>
       <div className="header-content">
-      <img src={require('./templeHeader.png')} alt="Jai Sri Ram" />
+      <img src={require('./HeaderImages/templeHeader.png')} alt="Jai Sri Ram" />
       <nav>
       
           <a href="/">Home</a>
           <a href="/PriestServices">Pooja Services</a>
           <a href="/UpcomingEvents">Upcoming Events</a>
-          <a href="/About">About</a>
           <a href="/TempleServices">Donations</a>
           <a href="/Gallery">Gallery</a>
-          <a href="/OnlineBookings">Online Bookings</a>
+          <a href="/About">Founders</a>
+          <a href="/OnlineBookings">Our Team</a>
         
       </nav>
       </div>

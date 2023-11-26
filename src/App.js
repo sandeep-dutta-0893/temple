@@ -9,7 +9,7 @@ import TempleServices from './pages/TempleServices';
 import UpcomingEvents from './pages/UpcomingEvents';
 import PriestServices from './pages/PriestServices';
 import OnlineBookings from './pages/OnlineBookings';
-import Gallery from './Gallery';
+import Gallery from './pages/Gallery';
 
 function App() {
   console.log(window.location)
