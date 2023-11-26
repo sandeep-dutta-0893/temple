@@ -147,12 +147,21 @@ header {
 	}
 	.left-section {
 		text-align: left;
-		font-size: 8px;
 	  }
 	  
 	  .right-section {
 		text-align: right;
-		font-size: 8px;
+	  }
+
+	  .left-section p, .right-section p, .copyright-section p{
+		font-size: 8px; /* Decrease font size for smaller screens */
+		margin: 0;
+	  }
+
+	  .left-section h3, .right-section h3, .social-section h3 {
+		font-size: 10px; /* Decrease font size for smaller screens */
+		
+		display: inline-block;
 	  }
 	  
   }
