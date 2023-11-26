@@ -83,12 +83,12 @@ function Home() {
 
         {/* Card 5 */}
         
-        <div className="card"  onClick={() => window.location.href = "/OnlineBookings"}>
+        <a href="/TempleServices" style={{textDecoration: 'none' }}>
           <div className="title">Donations</div>
           <div className="content">
             <ul>
             
-                <li><a href="/TempleServices" style={{textDecoration: 'none' }}>Temple Expansion Program&nbsp; &nbsp;&nbsp;&nbsp;...more details</a></li>
+                <li>Temple Expansion Program</li>
                 <li> Priest Welfare</li>
                 <li> Prasadam Sponsorship</li>
                 <li> Monthly Contributions</li>
@@ -96,7 +96,8 @@ function Home() {
                 <li> Groceries</li>
             </ul>
           </div>
-        </div>
+          </a>
+        
         
         {/* Card 6 */}
         
