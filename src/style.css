@@ -144,6 +144,7 @@ header {
   
 	.left-section, .right-section, .social-section, .copyright-section {
 	  min-width: auto; /* Remove minimum width for smaller screens */
+	 min-height:auto;
 	}
 	.left-section {
 		text-align: left;
@@ -154,12 +155,12 @@ header {
 	  }
 
 	  .left-section p, .right-section p, .copyright-section p{
-		font-size: 8px; /* Decrease font size for smaller screens */
+		font-size: 10px; /* Decrease font size for smaller screens */
 		margin: 0;
 	  }
 
 	  .left-section h3, .right-section h3, .social-section h3 {
-		font-size: 10px; /* Decrease font size for smaller screens */
+		font-size: 11px; /* Decrease font size for smaller screens */
 		
 		display: inline-block;
 	  }
