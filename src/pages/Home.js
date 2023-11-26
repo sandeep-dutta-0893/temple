@@ -84,6 +84,7 @@ function Home() {
         {/* Card 5 */}
         
         <a href="/TempleServices" style={{textDecoration: 'none' }}>
+        <div className="card">
           <div className="title">Donations</div>
           <div className="content">
             <ul>
@@ -95,6 +96,7 @@ function Home() {
                 <li> Fruits and Flowers</li>
                 <li> Groceries</li>
             </ul>
+          </div>
           </div>
           </a>
         

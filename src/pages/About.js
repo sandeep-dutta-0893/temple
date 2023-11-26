@@ -5,7 +5,7 @@ function About() {
     return (
       <div className="home-container">
         <div className="card1">
-            <div className="title">About Us</div>
+            <div className="title">Founders</div>
            
           <div className="event-card" style={{ backgroundColor: '#F9E076' }}>Event 1</div>
           <div className="event-card" style={{ backgroundColor: '#F5EB9A' }}>Event 2</div>
