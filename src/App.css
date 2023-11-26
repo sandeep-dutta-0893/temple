@@ -239,6 +239,10 @@ body {
     padding: 10px; /* Reduce padding for smaller screens */
     min-height: auto; /* Remove max-height to allow content to expand */
   }
+  .card {
+    width: 100%; /* Make the card full width on smaller screens */
+    height: auto; /* Allow the height to adjust based on content */
+  }
   .card-grid1 {
     grid-template-columns: 1fr; /* Change to a single column layout */
     padding: 10px; /* Reduce padding for smaller screens */

@@ -5,7 +5,7 @@ function OnlineBookings() {
     return (
       <div className="home-container">
         <div className="card1">
-            <div className="title">Online Bookings</div>
+            <div className="title">Our Team</div>
             <div className="card-grid1">
           <div className="event-card" style={{ backgroundColor: '#F9E076' }}>Event 1</div>
           <div className="event-card" style={{ backgroundColor: '#F5EB9A' }}>Event 2</div>
