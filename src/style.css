@@ -53,8 +53,8 @@ header {
 	font-weight: bold;
 	margin: 0; /* Remove default margin */
 	font-size: 16px; /* Adjust font size */
-	transition: all 0.3s ease; /* Add a smooth transition effect */
-	border: 1px solid #e68447;
+	transition: all 0.3s ease; /* Add a smooth transition effect
+	border: 1px solid #e68447; */
 	border-radius: 5px;
   }
   
@@ -83,12 +83,16 @@ header {
 	header nav a {
 	  padding: 5px 10px;
 	  font-size: 10px;
+	  color: #fdfdfc;
+	  background: radial-gradient(circle, #e68447, #f5db95);
+	  border-right: 0.5px solid #e68447;
+	  border-left: 0.5px solid #e68447;
 	}
 	header nav a:hover {
-		background-color: #e68447; /* Change background color on hover */
-		color: white; /* Change text color on hover */
-		border-radius: 5px; /* Add rounded corners on hover */
-	}
+        background-color: transparent; /* Remove background color on hover */
+        color: #0000FF; /* Reset text color on hover */
+        border-radius: 0; /* Remove rounded corners on hover */
+    }
 
 	
   }
