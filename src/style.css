@@ -41,6 +41,8 @@ header {
 	justify-content: center;
 	margin: 0; /* Remove default margin */
 	padding: 0; /* Remove default padding */
+	border-top: 2px solid #e68447; /* Add a border at the top for separation */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
   }
   
   header nav a {
@@ -51,7 +53,16 @@ header {
 	font-weight: bold;
 	margin: 0; /* Remove default margin */
 	font-size: 16px; /* Adjust font size */
+	transition: all 0.3s ease; /* Add a smooth transition effect */
+	border: 1px solid #e68447;
+	border-radius: 5px;
   }
+  
+  header nav a:hover {
+    background-color: #e68447; /* Change background color on hover */
+    color: white; /* Change text color on hover */
+    border-radius: 5px; /* Add rounded corners on hover */
+}
   
   /* Add styles for responsive design, adjust breakpoints as needed */
   @media screen and (max-width: 768px) {
@@ -72,6 +83,11 @@ header {
 	header nav a {
 	  padding: 5px 10px;
 	  font-size: 10px;
+	}
+	header nav a:hover {
+		background-color: #e68447; /* Change background color on hover */
+		color: white; /* Change text color on hover */
+		border-radius: 5px; /* Add rounded corners on hover */
 	}
 
 	
