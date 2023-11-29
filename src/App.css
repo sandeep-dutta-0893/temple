@@ -45,10 +45,11 @@ body {
   display: flex;
   background-color: #E1DCAD;
   flex-direction: column;
+  padding-top:20px;
   align-items: center;
   justify-content: center;
   min-height: 100vh; /* Set the container height to 100% of the viewport height */
-   /* Hide any overflowing content */
+  overflow: hidden;/* Hide any overflowing content */
 }
 
 /* App.css or your custom CSS file */
@@ -159,8 +160,13 @@ body {
  display: flex;
  /* Center the carousel horizontally */
   padding: 0 20px;/* Add padding to the left and right */
+  background-color: #250101;
 }
-
+.carousel-image {
+  width: 100%; /* Ensure the image takes up the full width of its container */
+  height: auto; /* Maintain the aspect ratio of the image */
+  max-width: 600px; /* Set a maximum width for larger screens */
+}
 
 .interac {
   display: flex;
@@ -273,7 +279,11 @@ body {
     margin-left: 0;
     margin-bottom: 10px;
   }
-  
-  
+  .carousel-image {
+    max-width: 100%; /* Allow images to take up the full width on smaller screens */
+  }
+  .home-container {
+    padding-top:20px;
+  }
   
 }

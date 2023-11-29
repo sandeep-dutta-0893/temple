@@ -17,7 +17,7 @@ function Home() {
        <Carousel autoPlay interval={5000} infiniteLoop  showThumbs={false} className="custom-carousel">
         {images.map((image, index) => (
           <div key={index}>
-            <img src={image} alt={`Slider ${index + 1}`} />
+            <img className="carousel-image" src={image} alt={`Slider ${index + 1}`} />
           </div>
         ))}
       </Carousel>
