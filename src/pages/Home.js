@@ -4,28 +4,22 @@ import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 //import './Home.css'; // Import your custom CSS file
 
+// Function to require all images from a specific folder
+function importAll(r) {
+  return r.keys().map(r);
+}
+// Import all images from the './HomePageImages' folder
+const images = importAll(require.context('./HomePageImages', false, /\.(png|jpe?g|svg|jpg)$/));
+
 function Home() {
   return (
     <div className="home-container">
-       <Carousel
-        autoPlay
-        interval={3000}
-        infiniteLoop
-        //showIndicators={false} // Optional: Hide the indicators
-        showThumbs={false} // Optional: Hide the thumbnail navigation
-        className="custom-carousel" // Add a custom class for styling
-      >
-        <div>
-          <img src={require('./HomePageImages/All_Dieties.png')} alt="Slider 1" width="130" height="600" />
-        </div>
-        
-        <div>
-          <img src={require('./HomePageImages/Sri_Venkateshawara_MahaLakshmi.png')} alt="Slider 2" width="130" height="600" />
-        </div>
-        <div>
-          <img src={require('./HomePageImages/Lord_Siva_Abirami.png')} alt="Slider 2" width="130" height="600" />
-        </div>
-        {/* Add more slider images */}
+       <Carousel autoPlay interval={5000} infiniteLoop  showThumbs={false} className="custom-carousel">
+        {images.map((image, index) => (
+          <div key={index}>
+            <img src={image} alt={`Slider ${index + 1}`} />
+          </div>
+        ))}
       </Carousel>
       <div className="welcomeNoteCard">
       <div className="content">
