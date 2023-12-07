@@ -133,6 +133,14 @@ body {
   text-align: center;
 }
 
+.content1 {
+  color: #00408a;
+  padding: 10px;
+  text-align: center;
+}
+.p2{
+  text-align: justify !important;
+}
 .content {
   color: #00408a;
   padding: 10px;
@@ -148,7 +156,7 @@ body {
 }
 
 .content ul li::before {
-  content: '▶ ';
+  content: '\25CB  ';
 }
 
 .content ul li a {
