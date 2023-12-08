@@ -45,10 +45,10 @@ body {
   display: flex;
   background-color: #E1DCAD;
   flex-direction: column;
-  padding-top:20px;
+  padding:20px 0 20px 0;
   align-items: center;
   justify-content: center;
-  min-height: 100vh; /* Set the container height to 100% of the viewport height */
+  height: auto; /* Set the container height to 100% of the viewport height */
   overflow: hidden;/* Hide any overflowing content */
 }
 
@@ -60,10 +60,10 @@ body {
 }*/
 /* Home.css */
 .welcomeNoteCard {
-  background-color: #f9e65f;
+  background: radial-gradient(circle, #ecc655, #b7412a);
   border-radius: 10px;
   border: 2px solid #24184e;
-  width: calc(80% - 80px);
+  width: calc(83% - 80px);
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -134,7 +134,7 @@ body {
 }
 
 .content1 {
-  color: #00408a;
+  color: #f1f3f6;
   padding: 10px;
   text-align: center;
 }
@@ -265,7 +265,7 @@ body {
   .card1 {
     justify-content: space-between;
     align-items: center;
-    width: 400px;
+    width: auto;
   }
   
   .interac {
@@ -291,7 +291,26 @@ body {
     max-width: 100%; /* Allow images to take up the full width on smaller screens */
   }
   .home-container {
-    padding-top:20px;
+    width:auto;
+    
   }
-  
+  .welcomeNoteCard {
+ 
+    background: radial-gradient(circle, #ecc655, #b7412a);
+    border-radius: 10px;
+    border: 2px solid #24184e;
+    width:330px;
+    padding: 20px 10px 40px 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 10px 20px 10px;
+    height:300px;
+    align-items: center;
+  }
+
+  .content1 p {
+    
+    text-align: justify;
+    padding-bottom:-20px;
+  }
 }

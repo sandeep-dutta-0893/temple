@@ -2,9 +2,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 function TeamMemberCard({ name, position, description, imageUrl }) {
+  //<img src={imageUrl} alt={`${name} - ${position}`} className="member-image" />
   return (
     <div className="team-member-card">
-      <img src={imageUrl} alt={`${name} - ${position}`} className="member-image" />
+      
       <div className="member-details">
         <h3>{name}</h3>
         <p>{position}</p>
@@ -22,7 +23,7 @@ TeamMemberCard.propTypes = {
 };
 
 
-function OnlineBookings() {
+function OurTeam() {
   const teamMembers = [
     {
       name: 'Sri Ram Shakti Bhattar',
@@ -33,13 +34,7 @@ function OnlineBookings() {
     {
       name: 'Jatinder Bhan',
       position: 'President',
-      description: 'President',
-      imageUrl: 'url_to_johns_image.jpg',
-    },
-    {
-      name: 'Jatinder Bhan',
-      position: 'President',
-      description: 'President',
+      description: ' ',
       imageUrl: 'url_to_johns_image.jpg',
     },
     {
@@ -168,6 +163,18 @@ function OnlineBookings() {
       description: 'Maintainence Manager',
       imageUrl: 'url_to_johns_image.jpg',
     },
+    {
+      name: 'Sharadanand',
+      position: 'Volunteer',
+      description: 'Maintainence Manager',
+      imageUrl: 'url_to_johns_image.jpg',
+    },
+    {
+      name: 'Gopal Illur',
+      position: 'Trustee',
+      description: 'Advisor',
+      imageUrl: 'url_to_johns_image.jpg',
+    },
 {
       name: 'Sandeep Datta',
       position: 'Volunteer',
@@ -203,4 +210,4 @@ function OnlineBookings() {
   );
 };
 
-export default OnlineBookings;
+export default OurTeam;

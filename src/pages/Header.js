@@ -1,10 +1,27 @@
 
 import '../style.css';
 
-import React,{ useEffect }from 'react';
+import React,{ useEffect,useState }from 'react';
+
+
+  
+  
 
 
 const Header = () => {
+  const [showDropdown, setShowDropdown] = useState(false);
+  const [dropdownContent, setDropdownContent] = useState(null);
+
+  const handleDropdownToggle = (content) => {
+    setShowDropdown(!showDropdown);
+    setDropdownContent(content);
+  };
+
+  const handleDropdownClose = () => {
+    setShowDropdown(false);
+    setDropdownContent(null);
+  };
+
   useEffect(() => {
     const handleScroll = () => {
       const winTop = window.scrollTop;
@@ -13,6 +30,8 @@ const Header = () => {
       } else {
         document.body.classList.remove('sticky-header');
       }
+
+      
     };
 
     window.addEventListener('scroll', handleScroll);
@@ -31,10 +50,31 @@ const Header = () => {
           <a href="/">Home</a>
           <a href="/PriestServices">Pooja Services</a>
           <a href="/UpcomingEvents">Upcoming Events</a>
-          <a href="/TempleServices">Donations</a>
+          <p className={`dropdown ${showDropdown ? 'active' : ''}`}
+            onMouseEnter={() => handleDropdownToggle('donations')}
+            onMouseLeave={handleDropdownClose}>Donations
+            
+            {showDropdown && dropdownContent === 'donations' && (
+              <div class="dropdown-content">
+                <a href="/TempleExpansion">Temple Expansion</a>
+                <a href="/TempleMaintainence">Temple Maintainence</a>
+              </div>
+            )}
+          </p>
+          
+          <p className={`dropdown ${showDropdown ? 'active' : ''}`}
+            onMouseEnter={() => handleDropdownToggle('aboutUs')}
+            onMouseLeave={handleDropdownClose}>About Us
+            
+          {showDropdown && dropdownContent === 'aboutUs' && (
+              <div class="dropdown-content">
+               <a href="/FoundersPage">Founders Page</a>
+                <a href="/OurTeam">Team</a>
+              </div>
+            )}
+          </p>
+          
           <a href="/Gallery">Gallery</a>
-          <a href="/About">Founders</a>
-          <a href="/OnlineBookings">Our Team</a>
         
       </nav>
       </div>

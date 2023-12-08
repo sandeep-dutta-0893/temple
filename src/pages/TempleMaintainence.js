@@ -1,11 +1,11 @@
 import React from 'react';
+import '../App.css';
 
-
-function About() {
+function TempleMaintainence() {
     return (
       <div className="home-container">
         <div className="card1">
-            <div className="title">Founders</div>
+            <div className="title">Donations for Temple Maintainence</div>
            
           <p class="p2">Meet our founder Guruji Sri Rama Shakti ji, a multifaceted individual whose life has been 
           dedicated to the pursuit of music, spirituality, and community service. Renowned as a distinguished musician and 
@@ -37,4 +37,4 @@ function About() {
   );
 };
 
-export default About;
+export default TempleMaintainence;

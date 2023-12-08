@@ -57,17 +57,82 @@ header {
 	border: 1px solid #e68447; */
 	border-radius: 5px;
   }
+  header nav p {
+	color: #0000FF;
+	display: flex;
+	padding: 10px 15px;
+	text-decoration: none;
+	font-weight: bold;
+	margin: 0; /* Remove default margin */
+	font-size: 16px; /* Adjust font size */
+	transition: all 0.3s ease; /* Add a smooth transition effect
+	border: 1px solid #e68447; */
+	border-radius: 5px;
+  }
   
   header nav a:hover {
     background-color: #e68447; /* Change background color on hover */
     color: white; /* Change text color on hover */
     border-radius: 5px; /* Add rounded corners on hover */
 }
+
+header nav p:hover {
+    background-color: #e68447; /* Change background color on hover */
+    color: white; /* Change text color on hover */
+    border-radius: 5px; /* Add rounded corners on hover */
+}
+
+/* Add this CSS to your stylesheet or within your component's styles */
+
+/* Style for the dropdown container */
+.dropdown {
+	position: relative;
+	display: flex;
+	width:auto;
+	
+  }
+  
+  /* Style for the "Donations" link */
+  .dropdown a {
+	color: #0000FF;
+	padding: 14px 16px;
+	text-decoration: none;
+	display: flex;
+  }
+  
+  /* Style for the dropdown content */
+  .dropdown-content {
+	display: none;
+	top: 100%;
+	position: absolute;
+	background-color: #f9f9f9;
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+	border-radius:5px;
+	
+  }
+  
+  /* Style for individual dropdown items */
+  .dropdown-content a {
+	color: #0000FF;
+	padding: 12px 16px;
+	display: block;
+	text-decoration: none;
+  }
+  
+  /* Show the dropdown content when the dropdown is hovered over on desktop */
+  .dropdown:hover .dropdown-content {
+	display: block;
+  }
+  
+ 
+	
   
   /* Add styles for responsive design, adjust breakpoints as needed */
   @media screen and (max-width: 768px) {
 	header {
 	  height: auto;
+	  width:auto;
 	}
 	
 	header img {
@@ -78,14 +143,16 @@ header {
 	  bottom: 0;
 	  background-color: #F9E65F;
 	  padding: 5px 0;
+	  width:auto;
 	}
 	
 	header nav a {
 	  padding: 5px 10px;
 	  font-size: 10px;
-  color: #0404f8;
+  		color: #0404f8;
 	  border-right: 0.5px solid #e68447;
 	  border-left: 0.5px solid #e68447;
+	  width:auto;
 	}
 	header nav a:hover {
         background-color: transparent; /* Remove background color on hover */
@@ -93,6 +160,43 @@ header {
         border-radius: 0; /* Remove rounded corners on hover */
     }
 
+	header nav p {
+		padding: 5px 10px;
+		font-size: 10px;
+			color: #0404f8;
+		border-right: 0.5px solid #e68447;
+		border-left: 0.5px solid #e68447;
+		width:auto;
+	  }
+	  header nav p:hover {
+		  background-color: transparent; /* Remove background color on hover */
+		  color: #0000FF; /* Reset text color on hover */
+		  border-radius: 0; /* Remove rounded corners on hover */
+	  }
+
+	/* Hide the dropdown content by default on mobile */
+	.dropdown-content {
+		display: none;
+	  }
+	
+	  /* Show the dropdown content when the "Donations" link is clicked on mobile */
+	  .dropdown.active .dropdown-content {
+		display: block;
+		border-radius: 5px;
+		
+	  }
+	
+	  /* Adjust padding for better mobile touch experience */
+	  .dropdown a {
+		padding: 12px 14px;
+		color:#0000FF;
+	  }
+	
+	  /* Style for the active state on mobile */
+	  .dropdown.active a {
+		background-color: #ddd;
+	  }
+	
 	
   }
   

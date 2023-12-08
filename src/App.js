@@ -4,11 +4,12 @@ import { Helmet } from 'react-helmet';
 import Header from './pages/Header';
 import Footer from './pages/Footer';
 import Home from './pages/Home';
-import About from './pages/About';
-import TempleServices from './pages/TempleServices';
+import FoundersPage from './pages/FoundersPage';
+import TempleExpansion from './pages/TempleExpansion';
+import TempleMaintainence from './pages/TempleMaintainence';
 import UpcomingEvents from './pages/UpcomingEvents';
 import PriestServices from './pages/PriestServices';
-import OnlineBookings from './pages/OnlineBookings';
+import OurTeam from './pages/OurTeam';
 import Gallery from './pages/Gallery';
 
 function App() {
@@ -30,22 +31,27 @@ function App() {
       Component = UpcomingEvents;
       pageTitle = "Upcoming Events | Sri Yoga Hanuman Temple Cultural Society";
       break;
-    case "/TempleServices":
-      Component = TempleServices;
-      pageTitle = "Temple Services | Sri Yoga Hanuman Temple Cultural Society";
+    case "/TempleExpansion":
+      Component = TempleExpansion;
+      pageTitle = "Donate for Temple Expansion | Sri Yoga Hanuman Temple Cultural Society";
       break;
-    case "/About":
-      Component = About;
-      pageTitle = "About Us | Sri Yoga Hanuman Temple Cultural Society";
+      case "/TempleMaintainence":
+        Component = TempleMaintainence;
+        pageTitle = "Donate for Temple Maintainence | Sri Yoga Hanuman Temple Cultural Society";
+        break;
+    case "/FoundersPage":
+      Component = FoundersPage;
+      pageTitle = "About Us | Founder's Page | Sri Yoga Hanuman Temple Cultural Society";
       break;
+      case "/OurTeam":
+        Component = OurTeam;
+        pageTitle = "About Us | Our Team | Sri Yoga Hanuman Temple Cultural Society";
+        break; 
     case "/Gallery":
       Component = Gallery;
       pageTitle = "Gallery | Sri Yoga Hanuman Temple Cultural Society";
       break;
-    case "/OnlineBookings":
-      Component = OnlineBookings;
-      pageTitle = "Online Bookings | Sri Yoga Hanuman Temple Cultural Society";
-      break;
+    
     default:
       Component = Home;
       pageTitle = "Home | Sri Yoga Hanuman Temple Cultural Society"; // default title
