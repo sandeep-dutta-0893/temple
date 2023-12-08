@@ -83,22 +83,25 @@ of our ancient heritage. Our institution recognizes this important role and has 
 
         {/* Card 5 */}
         
-        <a href="/TempleServices" style={{textDecoration: 'none' }}>
+        
         <div class="card">
           <div class="title">Donations</div>
           <div class="content">
             <ul>
             
-                <li>Temple Expansion Program</li>
-                <li> Priest Welfare</li>
-                <li> Prasadam Sponsorship</li>
-                <li> Monthly Contributions</li>
-                <li> Fruits and Flowers</li>
-                <li> Groceries</li>
+                <li><a href="/TempleExpansion" style={{textDecoration: 'none' }}>Temple Expansion Program</a></li>
+                <li><a href="/TempleMaintainence" style={{textDecoration: 'none' }}> Priest Welfare</a></li>
+                <li><a href="/TempleMaintainence" style={{textDecoration: 'none' }}> Prasadam Sponsorship</a></li>
+                <li><a href="/TempleMaintainence" style={{textDecoration: 'none' }}> Monthly Contributions</a></li>
+                <li><a href="/TempleMaintainence" style={{textDecoration: 'none' }}> Fruits and Flowers</a></li>
+                <li><a href="/TempleMaintainence" style={{textDecoration: 'none' }}> Groceries</a></li>
             </ul>
           </div>
+          <div class="note">
+    <i><b>Note: Please click on list items to view details for donation</b></i>
+  </div>   
           </div>
-          </a>
+          
         
         
         {/* Card 6 */}
