@@ -117,6 +117,8 @@ body {
   padding: 10px 0; /* Add padding only for the inner content */
 }
 
+
+
 .card-grid1 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -131,6 +133,10 @@ body {
   padding: 10px;
   height: 250px;
   text-align: center;
+}
+
+.event-card table{
+  color:#61dafb;
 }
 
 .content1 {
@@ -244,7 +250,22 @@ body {
   height: 100%;
   object-fit: contain;
 }
+button {
+  width:100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
 
+button:hover {
+  background-color: #45a049;
+}
 
 
 @media screen and (max-width: 768px) {
@@ -307,7 +328,7 @@ body {
     height:300px;
     align-items: center;
   }
-
+  
   .content1 p {
     
     text-align: justify;

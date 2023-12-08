@@ -12,15 +12,7 @@ const Header = () => {
   const [showDropdown, setShowDropdown] = useState(false);
   const [dropdownContent, setDropdownContent] = useState(null);
 
-  const handleDropdownToggle = (content) => {
-    setShowDropdown(true);
-    setDropdownContent(content);
-  };
-
-  const handleDropdownClose = () => {
-    setShowDropdown(false);
-    setDropdownContent(null);
-  };
+  
 
   const handleMouseEnter = (content) => {
     setShowDropdown(true);
