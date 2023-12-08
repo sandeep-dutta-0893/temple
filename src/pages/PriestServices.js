@@ -33,9 +33,11 @@ function PriestServices() {
             </div>
           
           <div className="event-card" style={{ backgroundColor: '#F9E076' }}>
-          <h3>SEEMANDHAM</h3>
-          <p class="p2">The word Seemantham describes the meaning of the hair parting process just above the eyebrows where Goddess Lakshmi, goddess of wealth repose.
-             This Hindu ritual also includes the method of parting the hair and applying the kumkum between them to appease the Goddess Lakshmi</p>
+          <h3>SEEMANTHAM</h3>
+          <p class="p2">The fifth, seventh, or ninth month of pregnancy is when it is done. One of the 16 Hindu samskaras, 
+          or “simantonnayana” in Sanskrit, is called Seemantham. 
+          It is a samskara of the developing embryo or fetus inside the womb of the expectant mother.</p>
+          <p class="p2">In other words it is a traditional baby shower function</p>
             </div>
           <div className="event-card" style={{ backgroundColor: '#F5EB9A' }}>
           <h3>SRI SATHYANARAYANA POOJA</h3>
@@ -66,12 +68,11 @@ function PriestServices() {
           <p class="p2">The annaprashana, also known as annaprashana vidhi or annaprashanam, is a Hindu rite of passage (Saṃskāra) that marks an infant's first 
             intake of food other than milk. The term annaprashana means 'eating of cooked rice'.</p>
          </div>
-         <div className="event-card" style={{ backgroundColor: '#F9E076' }}>
-          <h3>POOJA</h3>
-          <p class="p2">Narayana means the one that abides in everything and everybody. Therefore, this puja, or the worship of Satyanarayan, a form of the Lord Vishnu, suggests that 
-            to overcome problems and difficulties in life caused either due to deeds of previous birth or similar factors can be overcome by worshipping the lord of Truth</p>
-         </div>
+         
 
+         <div style={{ padding:'10px', textAlign: 'center' }}>
+    <i>Note: Please contact Temple for below services details <br></br> <b>CONTACT:</b> +1 778-780-1914&nbsp;&nbsp; or <br></br><b>EMAIL:</b> info@yogahanuman.org</i>
+  </div>   
         </div>
       {/* Add page content */}
       </div>

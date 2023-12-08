@@ -22,11 +22,11 @@ function Home() {
         ))}
       </Carousel>
       <div className="welcomeNoteCard">
-      <div className="content1">
-          <p>Welcome to Shri Yoga Hanuman Temple.<br></br>
- ( Shri Hanumath sametha Shiva Vishnu Temple )</p>
+      <div className="content1"><img src={require('./IconImages/Hanuman Logo.jpeg')} alt="Interac logo" style={{ width:'80px',marginLeft: '10px' }} />
+          <b><p>Welcome to Shri Yoga Hanuman Temple</p></b>
+ <h5>( Shri Hanumath sametha Shiva Vishnu Temple )</h5>
 
-<p class="p2">Founded by Shri Rama Shakti Guruji in 2010.
+<p >Founded by Shri Rama Shakti Guruji in 2010.
 
 Temples have always been central institutions to protect and preserve the great values
 of our ancient heritage. Our institution recognizes this important role and has acted as a sign of continuity and development of our cultural, social, educational and charitable values.</p>

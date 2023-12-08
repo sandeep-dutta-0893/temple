@@ -1,4 +1,5 @@
 import React from 'react';
+import '../App.css';
 import styled from 'styled-components';
 import { FaEnvelope } from 'react-icons/fa';
 
@@ -38,14 +39,14 @@ const ResponsiveTable = styled.table`
   }
 `;
 
-const TempleServices = () => {
+const TempleExpansion = () => {
 
 
   return (
-    <div className="home-container" style={{ padding:'40px' }}>
+    <div className="home-container" style={{ padding:'20px 60px' }}>
     <div className="card1" >
-        <div className="title">Donations</div>
-        <p><b>Sri Yoga Hanuman Temple is in need of immediate expansion. The temple is now in a rented premises with 
+        <div className="title">Donations for Temple Expansion</div>
+        <p class="p2">Sri Yoga Hanuman Temple is in need of immediate expansion. The temple is now in a rented premises with 
           the exorbitant rent. Furthermore, the space is very limited for our huge idols and it is insufficient to perform all the rituals.
            We do not have any facility for doing annadanam and yagam. In order to address this issue and better accommodate devotees, the temple urgently 
            requires larger premises. As such, the temple is seeking support from its followers to make this possible.<br/><br/>
@@ -59,7 +60,7 @@ const TempleServices = () => {
         Devotees who contribute to the expansion of the temple will receive an energized coin of "Sri Maha Lakshmi".<br/><br/>
 
         Donors have the option to make their contributions either as a one-time payment, in installments or pledge now and pay later. We are a registered Charity
-         and you may be able to get significant amount back as tax credit.</b></p><br/><br/>
+         and you may be able to get significant amount back as tax credit.</p><br/><br/>
          <CardGrid>
          <EventCard style={{ backgroundColor: '#808080', color: 'white' }}>
           PLATINUM <br/><br/>
@@ -121,4 +122,4 @@ const TempleServices = () => {
   );
 };
 
-export default TempleServices;
+export default TempleExpansion;
