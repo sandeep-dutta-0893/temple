@@ -61,9 +61,9 @@ const Header = () => {
           <a href="/">Home</a>
           <a href="/PriestServices">Pooja Services</a>
           <a href="/UpcomingEvents">Upcoming Events</a>
-          <p className={`dropdown ${showDropdown && dropdownContent === 'donations' ? 'active' : ''}`}
+         <div className={`dropdown ${showDropdown && dropdownContent === 'donations' ? 'active' : ''}`}
             onMouseEnter={() => handleMouseEnter('donations')}
-            onMouseLeave={handleMouseLeave}>Donations
+            onMouseLeave={handleMouseLeave}><p>Donations</p>
             
             {showDropdown && dropdownContent === 'donations' && (
               <div class="dropdown-content">
@@ -71,11 +71,11 @@ const Header = () => {
                 <a href="/TempleMaintainence">Temple Maintainence</a>
               </div>
             )}
-          </p>
+          </div>
           
-          <p className={`dropdown ${showDropdown && dropdownContent === 'aboutUs' ? 'active' : ''}`}
+          <div className={`dropdown ${showDropdown && dropdownContent === 'aboutUs' ? 'active' : ''}`}
             onMouseEnter={() => handleMouseEnter('aboutUs')}
-            onMouseLeave={handleMouseLeave}>About Us
+            onMouseLeave={handleMouseLeave}><p>About Us</p>
             
           {showDropdown && dropdownContent === 'aboutUs' && (
               <div class="dropdown-content">
@@ -83,7 +83,7 @@ const Header = () => {
                 <a href="/OurTeam">Team</a>
               </div>
             )}
-          </p>
+          </div>
           
           <a href="/Gallery">Gallery</a>
         
