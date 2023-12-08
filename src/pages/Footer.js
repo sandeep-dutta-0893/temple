@@ -5,11 +5,11 @@ import { AiFillInstagram, AiFillFacebook, AiFillYoutube, AiOutlineWhatsApp } fro
 
 const Footer = () => {
   return (
-    <footer className="footer-container">
+    <footer class="footer-container">
       <table width="100%">
         <tbody>
           <tr>
-            <td className="left-section">
+            <td class="left-section">
               <h3>Contact Us</h3>
               <p>
                 <FaMapMarkerAlt /> Sri Yoga Hanuman Cultural Society<br/>
@@ -20,14 +20,14 @@ const Footer = () => {
               </p>
               
             </td>
-            <td className="right-section">
+            <td class="right-section">
               <h3>Temple Hours</h3>
               <p><FaClock />&nbsp;&nbsp;Mon-Fri: 8AM to 12PM & 3PM to 8PM</p>
               <p>Sat-Sun: 9AM to 1PM & 3PM to 8PM</p><br></br><br></br>
             </td>
           </tr>
           <tr>
-            <td colSpan="2" className="social-section">
+            <td colSpan="2" class="social-section">
               <h3>Follow Us:&nbsp;
               <a href="https://instagram.com/yogahanumantemplesurrey?igshid=OGQ5ZDc2ODk2ZA==" target="_blank" rel="noopener noreferrer"><AiFillInstagram /></a>
               <a href="https://www.facebook.com/sriyogahanumantemple?mibextid=LQQJ4d" target="_blank" rel="noopener noreferrer"><AiFillFacebook /></a>
@@ -36,7 +36,7 @@ const Footer = () => {
             </td>
           </tr>
           <tr>
-            <td colSpan="2" className="copyright-section">
+            <td colSpan="2" class="copyright-section">
               <p>&copy; 2023 By Sri Yoga Hanuman Cultural Society, BC, CA</p>
             </td>
           </tr>

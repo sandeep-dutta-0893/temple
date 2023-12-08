@@ -15,10 +15,10 @@ function Gallery() {
     setSelectedImage(null);
   };
     return (
-      <div className="home-container">
-        <div className="card1">
-            <div className="title">Gallery</div>
-            <div className="gallery-container">
+      <div class="home-container">
+        <div class="card1">
+            <div class="title">Gallery</div>
+            <div class="gallery-container">
           {images.map((image, index) => (
             <img key={index} src={image} alt={`${index}`} />
           ))}

@@ -182,7 +182,6 @@ header nav p:hover {
 	  /* Show the dropdown content when the "Donations" link is clicked on mobile */
 	  .dropdown.active .dropdown-content {
 		display: block;
-		border-radius: 5px;
 		
 	  }
 	

@@ -3,9 +3,9 @@ import '../App.css';
 
 function TempleMaintainence() {
     return (
-      <div className="home-container">
-        <div className="card1">
-            <div className="title">Donations for Temple Maintainence</div>
+      <div class="home-container">
+        <div class="card1">
+            <div class="title">Donations for Temple Maintainence</div>
            
           <p class="p2">Meet our founder Guruji Sri Rama Shakti ji, a multifaceted individual whose life has been 
           dedicated to the pursuit of music, spirituality, and community service. Renowned as a distinguished musician and 

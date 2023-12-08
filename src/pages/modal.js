@@ -4,8 +4,8 @@ import '../App.css';
 
 const Modal = ({ imageUrl, onClose }) => {
   return (
-    <div className="modal-overlay" onClick={onClose}>
-      <div className="modal-content">
+    <div class="modal-overlay" onClick={onClose}>
+      <div class="modal-content">
         <img src={imageUrl} alt="Full-size" />
       </div>
     </div>

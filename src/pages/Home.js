@@ -13,16 +13,16 @@ const images = importAll(require.context('./HomePageImages', false, /\.(png|jpe?
 
 function Home() {
   return (
-    <div className="home-container">
+    <div class="home-container">
        <Carousel autoPlay interval={5000} infiniteLoop  showThumbs={false} className="custom-carousel">
         {images.map((image, index) => (
           <div key={index}>
-            <img className="carousel-image" src={image} alt={`Slider ${index + 1}`} />
+            <img class="carousel-image" src={image} alt={`Slider ${index + 1}`} />
           </div>
         ))}
       </Carousel>
-      <div className="welcomeNoteCard">
-      <div className="content1"><img src={require('./IconImages/Hanuman Logo.jpeg')} alt="Interac logo" style={{ width:'80px',marginLeft: '10px' }} />
+      <div class="welcomeNoteCard">
+      <div class="content1"><img src={require('./IconImages/Hanuman Logo.jpeg')} alt="Interac logo" style={{ width:'80px',marginLeft: '10px' }} />
           <b><p>Welcome to Shri Yoga Hanuman Temple</p></b>
  <h5>( Shri Hanumath sametha Shiva Vishnu Temple )</h5>
 
@@ -33,11 +33,11 @@ of our ancient heritage. Our institution recognizes this important role and has 
       </div>
       </div>
       
-      <div className="card-grid">
+      <div class="card-grid">
         {/* Card 1 */}
-        <div className="card">
-          <div className="title">Sevas</div>
-          <div className="content">
+        <div class="card">
+          <div class="title">Sevas</div>
+          <div class="content">
           <ul>
                <li>Divya Darshanam</li>
                <li>Thirumanjanam (Abishekam)</li>
@@ -50,7 +50,7 @@ of our ancient heritage. Our institution recognizes this important role and has 
                 <li>Sri Krishna Vaibhavam</li>
                 <li>Navagraha Pooja</li>
          </ul> </div>
-         <div className="note">
+         <div class="note">
     <i>Note: Please contact Temple for above sevas details</i>
   </div>   
           
@@ -60,9 +60,9 @@ of our ancient heritage. Our institution recognizes this important role and has 
         
 
         {/* Card 3 */}
-        <div className="card">
-          <div className="title">Priest Services</div>
-          <div className="content">
+        <div class="card">
+          <div class="title">Priest Services</div>
+          <div class="content">
             <ul>
                 <li> Griha Pravesham</li>
                 <li> Annaprashan</li>
@@ -72,7 +72,7 @@ of our ancient heritage. Our institution recognizes this important role and has 
                 <li> Maha Sudarshana Homam</li>
                 
             </ul></div>
-            <div className="note">
+            <div class="note">
     <i>Note: Please contact Temple to book the above services</i>
   </div>   
           
@@ -84,9 +84,9 @@ of our ancient heritage. Our institution recognizes this important role and has 
         {/* Card 5 */}
         
         <a href="/TempleServices" style={{textDecoration: 'none' }}>
-        <div className="card">
-          <div className="title">Donations</div>
-          <div className="content">
+        <div class="card">
+          <div class="title">Donations</div>
+          <div class="content">
             <ul>
             
                 <li>Temple Expansion Program</li>
