@@ -43,9 +43,9 @@ const TempleExpansion = () => {
 
 
   return (
-    <div className="home-container" style={{ padding:'20px 60px' }}>
-    <div className="card1" >
-        <div className="title">Donations for Temple Expansion</div>
+    <div class="home-container" style={{ padding:'20px 60px' }}>
+    <div class="card1" >
+        <div class="title">Donations for Temple Expansion</div>
         <p class="p2">Sri Yoga Hanuman Temple is in need of immediate expansion. The temple is now in a rented premises with 
           the exorbitant rent. Furthermore, the space is very limited for our huge idols and it is insufficient to perform all the rituals.
            We do not have any facility for doing annadanam and yagam. In order to address this issue and better accommodate devotees, the temple urgently 

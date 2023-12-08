@@ -2,11 +2,11 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 function TeamMemberCard({ name, position, description, imageUrl }) {
-  //<img src={imageUrl} alt={`${name} - ${position}`} className="member-image" />
+  //<img src={imageUrl} alt={`${name} - ${position}`} class="member-image" />
   return (
-    <div className="team-member-card">
+    <div class="team-member-card">
       
-      <div className="member-details">
+      <div class="member-details">
         <h3>{name}</h3>
         <p>{position}</p>
         <p>{description}</p>
@@ -196,10 +196,10 @@ function OurTeam() {
     // Add more team members as needed
   ];
     return (
-      <div className="home-container">
-        <div className="card1">
-            <div className="title">Our Team</div>
-            <div className="card-grid1">
+      <div class="home-container">
+        <div class="card1">
+            <div class="title">Our Team</div>
+            <div class="card-grid1">
             {teamMembers.map((member, index) => (
             <TeamMemberCard key={index} {...member} />
           ))}

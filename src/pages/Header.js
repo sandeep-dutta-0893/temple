@@ -13,7 +13,7 @@ const Header = () => {
   const [dropdownContent, setDropdownContent] = useState(null);
 
   const handleDropdownToggle = (content) => {
-    setShowDropdown(!showDropdown);
+    setShowDropdown(true);
     setDropdownContent(content);
   };
 
@@ -21,6 +21,17 @@ const Header = () => {
     setShowDropdown(false);
     setDropdownContent(null);
   };
+
+  const handleMouseEnter = (content) => {
+    setShowDropdown(true);
+    setDropdownContent(content);
+  };
+
+  const handleMouseLeave = () => {
+    setShowDropdown(false);
+    setDropdownContent(null);
+  };
+
 
   useEffect(() => {
     const handleScroll = () => {
@@ -50,9 +61,9 @@ const Header = () => {
           <a href="/">Home</a>
           <a href="/PriestServices">Pooja Services</a>
           <a href="/UpcomingEvents">Upcoming Events</a>
-          <p className={`dropdown ${showDropdown ? 'active' : ''}`}
-            onMouseEnter={() => handleDropdownToggle('donations')}
-            onMouseLeave={handleDropdownClose}>Donations
+          <p className={`dropdown ${showDropdown && dropdownContent === 'donations' ? 'active' : ''}`}
+            onMouseEnter={() => handleMouseEnter('donations')}
+            onMouseLeave={handleMouseLeave}>Donations
             
             {showDropdown && dropdownContent === 'donations' && (
               <div class="dropdown-content">
@@ -62,9 +73,9 @@ const Header = () => {
             )}
           </p>
           
-          <p className={`dropdown ${showDropdown ? 'active' : ''}`}
-            onMouseEnter={() => handleDropdownToggle('aboutUs')}
-            onMouseLeave={handleDropdownClose}>About Us
+          <p className={`dropdown ${showDropdown && dropdownContent === 'aboutUs' ? 'active' : ''}`}
+            onMouseEnter={() => handleMouseEnter('aboutUs')}
+            onMouseLeave={handleMouseLeave}>About Us
             
           {showDropdown && dropdownContent === 'aboutUs' && (
               <div class="dropdown-content">
