@@ -99,7 +99,7 @@ function TempleMaintenance() {
  
           <div className="card" style={{ backgroundColor: '#F9E076', height: 'auto', width:'auto' }}>
           <div className="title" style={{color:'#fff',background: 'radial-gradient(circle, #ecc655, #b7412a)'}}><h3><img style={{marginBottom:'-5px'}}src={require('./IconImages/priceTag.png')} alt="priceTag"/>&nbsp;Rental Lease Payment</h3></div>
-          <p style={{textAlign:'center'}}><b>Vedic Scholar Pandit, Suryanarayana from India invited as Priest for temple services</b></p>
+          <p style={{textAlign:'center'}}><b>The temple is now in a rented premises with the exorbitant rent. Sponsor / Donate Full ot Partial Rental Lease Payments</b></p>
               <div style={{ display: 'flex', justifyContent: 'flex-start', alignItems: 'center', marginRight: '60px' }}>
                   <img src={require('./IconImages/InteracLogo 1.png')} alt="Interac logo" style={{ width:'40px',marginLeft: '10px' }} />
                   

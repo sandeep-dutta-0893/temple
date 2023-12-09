@@ -64,34 +64,34 @@ const TempleExpansion = () => {
          <CardGrid>
          <EventCard style={{ backgroundColor: '#808080', color: 'white' }}>
           PLATINUM <br/><br/>
-          <p style={{fontSize: '14px'}}>Yuva Raja Poshaka<br/>
+          <p style={{fontSize: '18px'}}>Yuva Raja Poshaka<br/>
           25,000 CAD<br/>
           Sri MahaLakshmi Gold Coin & Name on Donor's wall</p><br/><br/>
-          <p style={{fontSize: '14px'}}>*Get up to CAD 11,398 back
+          <p style={{fontSize: '16px'}}>*Get up to CAD 11,398 back
           as Tax credit</p>
         </EventCard>
         <EventCard style={{ backgroundColor: '#D4AF37', color: 'white' }}>
         GOLD <br/><br/>
-          <p style={{fontSize: '14px'}}>Maha Daata<br/>
+          <p style={{fontSize: '18px'}}>Maha Daata<br/>
           10,000 CAD<br/>
           Sri MahaLakshmi Gold Coin</p><br/><br/>
-          <p style={{fontSize: '14px'}}>*Get up to CAD 4,500 back
+          <p style={{fontSize: '16px'}}>*Get up to CAD 4,500 back
           as Tax credit</p>
         </EventCard>
         <EventCard style={{ backgroundColor: '#C0C0C0', color: 'white' }}>
         SILVER <br/><br/>
-          <p style={{fontSize: '14px'}}>Bhoomi Daata<br/>
+          <p style={{fontSize: '18px'}}>Bhoomi Daata<br/>
           5,000 CAD<br/>
           Sri MahaLakshmi Silver Coin</p><br/><br/>
-          <p style={{fontSize: '14px'}}>*Get up to CAD 2,200 back
+          <p style={{fontSize: '16px'}}>*Get up to CAD 2,200 back
           as Tax credit</p>
         </EventCard>
         <EventCard style={{ backgroundColor: '#CD7F32', color: 'white' }}>
         BRONZE <br/><br/>
-          <p style={{fontSize: '14px'}}>Devalaya Nirmana Daata<br/>
+          <p style={{fontSize: '18px'}}>Devalaya Nirmana Daata<br/>
           2,000 CAD<br/>
           Sri MahaLakshmi Bronze Coin</p><br/><br/>
-          <p style={{fontSize: '14px'}}>*Get up to CAD 850 back
+          <p style={{fontSize: '16px'}}>*Get up to CAD 850 back
           as Tax credit</p>
         </EventCard>
         </CardGrid>
