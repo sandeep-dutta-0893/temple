@@ -188,7 +188,7 @@ function OurTeam() {
       imageUrl: 'url_to_johns_image.jpg',
     },
 {
-      name: 'Surya Narayana',
+      name: 'Murali Krishna',
       position: 'Archaka/Priest',
       description: '',
       imageUrl: 'url_to_johns_image.jpg',
