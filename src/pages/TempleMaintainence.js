@@ -17,19 +17,19 @@ function TempleMaintenance() {
           <div className="card" style={{ backgroundColor: '#F9E076', height: 'auto', width:'auto' }}>
           <div className="title" style={{color:'#fff', background: 'radial-gradient(circle, #ecc655, #b7412a)'}}><h3>One Time Donation</h3></div>
             <table>
-              <tr><td><h4>Donate $1001</h4></td><td  style={{ paddingRight:'20px' }}><button onClick={() => openLink('https://buy.stripe.com/9AQaHTf4WatR4W4dR1')}>
+              <tr><td><h4>Donate $1001</h4></td><td  style={{ paddingRight:'20px' }}><button onClick={() => openLink('https://www.zeffy.com/donation-form/yoga-hanuman-cultural-society-contribute-towrards-temple-expansion-plan-and-assit-in-moving-from-rented-permises')}>
               Click to Donate $1001
             </button></td></tr>
-            <tr><td><h4>Donate $501</h4></td><td style={{ paddingRight:'20px' }}><button onClick={() => openLink('https://buy.stripe.com/cN203f7CuatRbks7sC')}>
+            <tr><td><h4>Donate $501</h4></td><td style={{ paddingRight:'20px' }}><button onClick={() => openLink('https://www.zeffy.com/donation-form/yoga-hanuman-cultural-society-contribute-towrards-temple-expansion-plan-and-assit-in-moving-from-rented-permises')}>
               Click to Donate $501
             </button></td></tr>
-            <tr><td><h4>Donate $101</h4></td><td style={{ paddingRight:'20px' }}><button onClick={() => openLink('https://buy.stripe.com/fZe5nzbSKgSfbks007')}>
+            <tr><td><h4>Donate $101</h4></td><td style={{ paddingRight:'20px' }}><button onClick={() => openLink('https://www.zeffy.com/donation-form/yoga-hanuman-cultural-society-contribute-towrards-temple-expansion-plan-and-assit-in-moving-from-rented-permises')}>
               Click to Donate $101
             </button></td></tr>
-            <tr><td><h4>Donate $51</h4></td><td style={{ paddingRight:'20px' }}><button onClick={() => openLink('https://buy.stripe.com/cN24jv8GyatR1JS3ck')}>
+            <tr><td><h4>Donate $51</h4></td><td style={{ paddingRight:'20px' }}><button onClick={() => openLink('https://www.zeffy.com/donation-form/yoga-hanuman-cultural-society-contribute-towrards-temple-expansion-plan-and-assit-in-moving-from-rented-permises')}>
               Click to Donate $51
             </button></td></tr>
-            <tr><td><h4>Donate $25</h4></td><td style={{ paddingRight:'20px' }}><button onClick={() => openLink('https://buy.stripe.com/aEUg2d6yqeK774c14d')}>
+            <tr><td><h4>Donate $25</h4></td><td style={{ paddingRight:'20px' }}><button onClick={() => openLink('https://www.zeffy.com/donation-form/yoga-hanuman-cultural-society-contribute-towrards-temple-expansion-plan-and-assit-in-moving-from-rented-permises')}>
               Click to Donate $25
             </button></td></tr>
             <tr><td><img src={require('./IconImages/InteracLogo 1.png')} alt="Interac logo" style={{ width:'40px',marginLeft: '10px' }} />
@@ -45,22 +45,22 @@ function TempleMaintenance() {
           <div className="card" style={{ backgroundColor: '#F9E076', height: 'auto', width:'auto' }}>
           <div className="title" style={{color:'#fff', background: 'radial-gradient(circle, #ecc655, #b7412a)'}}><h3>Monthly Donations</h3></div>
             <table>
-              <tr><td style={{textAlign:'center'}}><h4>SRI VAIKUNTAM $501</h4></td><td style={{ paddingRight:'20px' }}><button onClick={() => openLink('https://buy.stripe.com/5kAaHT6yqdG3608eV0')}>
+              <tr><td style={{textAlign:'center'}}><h4>SRI VAIKUNTAM $501</h4></td><td style={{ paddingRight:'20px' }}><button onClick={() => openLink('https://www.zeffy.com/donation-form/investing-in-our-community-support-sri-yoga-hanuman-cultural-society')}>
               Click to Donate $501
             </button></td></tr>
-            <tr><td style={{textAlign:'center'}}><h4>SHIVA LOGAM $301</h4></td><td style={{ paddingRight:'20px' }}><button onClick={() => openLink('https://buy.stripe.com/fZe17j0a20Thbks005')}>
+            <tr><td style={{textAlign:'center'}}><h4>SHIVA LOGAM $301</h4></td><td style={{ paddingRight:'20px' }}><button onClick={() => openLink('https://www.zeffy.com/donation-form/investing-in-our-community-support-sri-yoga-hanuman-cultural-society')}>
               Click to Donate $301
             </button></td></tr>
-            <tr><td style={{textAlign:'center'}}><h4>SATYA LOGAM $201</h4></td><td style={{ paddingRight:'20px' }}><button onClick={() => openLink('https://buy.stripe.com/9AQbLX6yq31p88g9AE')}>
+            <tr><td style={{textAlign:'center'}}><h4>SATYA LOGAM $201</h4></td><td style={{ paddingRight:'20px' }}><button onClick={() => openLink('https://www.zeffy.com/donation-form/investing-in-our-community-support-sri-yoga-hanuman-cultural-society')}>
               Click to Donate $201
             </button></td></tr>
-            <tr><td style={{textAlign:'center'}}><h4>THAPA LOGAM $101</h4></td><td style={{ paddingRight:'20px' }}><button onClick={() => openLink('https://buy.stripe.com/5kA6rD8GyeK7fAIbII')}>
+            <tr><td style={{textAlign:'center'}}><h4>THAPA LOGAM $101</h4></td><td style={{ paddingRight:'20px' }}><button onClick={() => openLink('https://www.zeffy.com/donation-form/investing-in-our-community-support-sri-yoga-hanuman-cultural-society')}>
               Click to Donate $101
             </button></td></tr>
-            <tr><td style={{textAlign:'center'}}><h4>MAHA LOGAM $51</h4></td><td style={{ paddingRight:'20px' }}><button onClick={() => openLink('https://buy.stripe.com/14k03f4qidG374cdQS')}>
+            <tr><td style={{textAlign:'center'}}><h4>MAHA LOGAM $51</h4></td><td style={{ paddingRight:'20px' }}><button onClick={() => openLink('https://www.zeffy.com/donation-form/investing-in-our-community-support-sri-yoga-hanuman-cultural-society')}>
               Click to Donate $51
             </button></td></tr>
-            <tr><td style={{textAlign:'center'}}><h4>BUVA LOGAM &nbsp;$25</h4></td><td style={{ paddingRight:'20px' }}><button onClick={() => openLink('https://buy.stripe.com/00g8zL2iadG34W47st')}>
+            <tr><td style={{textAlign:'center'}}><h4>BUVA LOGAM &nbsp;$25</h4></td><td style={{ paddingRight:'20px' }}><button onClick={() => openLink('https://www.zeffy.com/donation-form/investing-in-our-community-support-sri-yoga-hanuman-cultural-society')}>
               Click to Donate $25
             </button></td></tr></table>
             <div style={{ display: 'flex', justifyContent: 'flex-start', alignItems: 'center', marginRight: '60px' }}>
