@@ -52,6 +52,54 @@ body {
   overflow: hidden;/* Hide any overflowing content */
 }
 
+/* Scrolling banner */
+.banner-wrap {
+  background: #c40000;           /* temple red */
+  color: #ffea00;                /* bright yellow */
+  overflow: hidden;
+  white-space: nowrap;
+  border-bottom: 1px solid rgba(0,0,0,0.15);
+}
+
+.banner-track {
+  display: inline-block;
+  padding: 8px 0;                /* vertical padding for touch targets */
+  min-width: 200%;               /* room for the duplicate text */
+  animation: banner-scroll 18s linear infinite;
+}
+
+.banner-text {
+  display: inline-block;
+  padding-right: 4rem;           /* gap between repeated text */
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  font-size: 1rem;
+}
+
+@keyframes banner-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%); /* scroll half the width since we duplicated text */
+  }
+}
+
+/* Optional: pause on hover/focus for accessibility */
+.banner-wrap:hover .banner-track,
+.banner-wrap:focus-within .banner-track {
+  animation-play-state: paused;
+}
+
+/* Responsive tweak */
+@media (max-width: 600px) {
+  .banner-text {
+    font-size: 0.95rem;
+    padding-right: 2rem;
+  }
+}
+
+
 /* App.css or your custom CSS file */
 
 
