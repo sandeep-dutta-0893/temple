@@ -62,15 +62,15 @@ body {
 }
 
 .banner-track {
-  display: inline-block;
+  display: inline-flex;
   padding: 8px 0;                /* vertical padding for touch targets */
   min-width: 200%;               /* room for the duplicate text */
-  animation: banner-scroll 18s linear infinite;
+  animation: banner-scroll 20s linear infinite;
 }
 
 .banner-text {
-  display: inline-block;
-  padding-right: 4rem;           /* gap between repeated text */
+  
+  padding: 0 2rem;           /* gap between repeated text */
   font-weight: 700;
   letter-spacing: 0.2px;
   font-size: 1rem;
@@ -81,11 +81,11 @@ body {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-50%); /* scroll half the width since we duplicated text */
+    transform: translateX(-33.3333%); /* scroll half the width since we duplicated text */
   }
 }
 
-/* Optional: pause on hover/focus for accessibility */
+/* pause on hover/focus for accessibility */
 .banner-wrap:hover .banner-track,
 .banner-wrap:focus-within .banner-track {
   animation-play-state: paused;
