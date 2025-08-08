@@ -8,7 +8,7 @@ function FoundersPage() {
             <div class="title">Founder's Page</div>
            <h5>About Us</h5>
           <p class="p2">Welcome to the Yoga Hanuman Society (YHT), a sanctuary of spiritual growth, cultural enrichment, and heartfelt 
-            community in the heart of the Lower Mainland. Our temple is more than just a place of worship—it is a home where every soul 
+            community in the heart of the Lower Mainland. Our temple is more than just a place of worship, it is a home where every soul 
             is celebrated, every tradition honored, and every visitor warmly embraced.</p>
             <h5>Our Origin</h5>
           <p class="p2">The Yoga Hanuman Society was founded by the compassionate and inspiring Ram Shakthi, lovingly known to all as ‘Panditji.’ 
