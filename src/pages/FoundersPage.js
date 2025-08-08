@@ -6,30 +6,32 @@ function FoundersPage() {
       <div class="home-container">
         <div class="card1">
             <div class="title">Founder's Page</div>
-           
-          <p class="p2">Meet our founder Guruji Sri Rama Shakti ji, a multifaceted individual whose life has been 
-          dedicated to the pursuit of music, spirituality, and community service. Renowned as a distinguished musician and 
-          Carnatic singer, he has carved a niche for himself in the world of classical arts. His melodious renditions have 
-          resonated not only across the auditoriums but also within the hearts of those who appreciate the 
-          intricacies of traditional Indian music.</p>
-          <p class="p2">In addition to his musical prowess, he is a visionary who, alongside his spiritual endeavors, founded 
-          the Shri Yoga Hanuman Temple, a sacred space that also venerates Balaji and Shiva. His establishment stands as a testament 
-          to his commitment to fostering spiritual growth and preserving cultural heritage in the diverse landscape of Canada. 
-          Having forsaken a flourishing career in the software industry, he redirected his energy and resources in 2010 towards the 
-          creation of this charitable organization aimed at benefitting society at large.</p>
-          <p class="p2">Rama Shakti Guruji's altruistic endeavors extend beyond the temple walls. His dedication to community 
-          service reflects a deep-rooted belief in the transformative power of social responsibility. By devoting his full time 
-          to the maintenance of the temple and engaging in philanthropic initiatives, he has become a beacon of inspiration for 
-          those who seek to make a positive impact on society.</p>
-          <p class="p2">Not only is the priest a musical virtuoso and spiritual leader, but he is also a scholarly luminary. 
-          Armed with a doctorate in language and cultural studies, he once graced the halls of Presidency College as a professor, 
-          where he imparted knowledge to the eager minds of the next generation. His intellectual pursuits are not confined to 
-          academia, as evidenced by his stint at All India Radio, where he played a role in disseminating cultural knowledge to a 
-          wider audience.</p>
-          <p class="p2">In summary, the guruji emerges as a harmonious blend of musical excellence, spiritual devotion, and scholarly 
-          wisdom. His journey from the software industry to the temple, from professorial duties to community service, paints a 
-          portrait of an individual whose life is a symphony of selflessness, culture, and enlightenment.</p>
-          <p class="p2">His message to the people is “Be aware of gods”!</p>
+           <h5>About Us</h5>
+          <p class="p2">Welcome to the Yoga Hanuman Society (YHT), a sanctuary of spiritual growth, cultural enrichment, and heartfelt 
+            community in the heart of the Lower Mainland. Our temple is more than just a place of worship—it is a home where every soul 
+            is celebrated, every tradition honored, and every visitor warmly embraced.</p>
+            <h5>Our Origin</h5>
+          <p class="p2">The Yoga Hanuman Society was founded by the compassionate and inspiring Ram Shakthi, lovingly known to all as ‘Panditji.’ 
+            Guided by a simple yet profound mission to offer an authentic, pure, and uplifting spiritual experience to devotees, Panditji dedicated 
+            his life to making accessible the blessings and teachings of Anchaneya (Hanumanji).</p>
+          <p class="p2">His journey of service began over 18 years ago in Montreal and deepened through years of devotion in Richmond before 
+            realizing his true calling—to establish a temple where unwavering service, community spirit, and the essence of hanuman bhakti 
+            could flourish. With tireless hands and a joyful heart, Panditji personally adorned every corner of our temple, sourcing sacred idols 
+            from India and creating a space designed to nurture peace, joy, and devotion in every visitor.</p>
+            <h5>A Journey of Welcome and Belonging</h5>
+          <p class="p2">The moment you step into the Yoga Hanuman Temple, you are greeted not just as a guest, but as family. Our dedicated volunteers
+             welcome you with warmth, kindness, and an open heart—ensuring everyone feels at home, no matter their background or experience. This spirit
+              of inclusivity is the cornerstone of what we do.</p>
+          <p class="p2">Panditji’s pooja ceremonies are renowned for theirdevotion, musicality, and soul-stirring energy, reminiscent of the great South 
+            Indian temples. His vibrant hymns, passionate chanting, and unwavering attention to detail transport devotees, inspiring a deep connection 
+            with Hanumanji.</p>
+            <h5>Embracing Peace and Culture</h5>
+          <p class="p2">Our sanctuary is more than a place to pray—it is a space to find inner peace and calm. When services are not in session, we invite
+             everyone to take a moment to sit quietly, absorb the serene surroundings, and chant Anchaneya’s name in personal reflection. Families, especially
+              parents with young children, are encouraged to cultivate mindful silence and instill peaceful habits and spiritual values from an early age.</p>
+              <h5>Building Our Future, Together</h5>
+          <p class="p2">The YHT committee is devoted to a bright vision: securing land to build a permanent temple—a lasting beacon of light for generations to 
+            come. Thanks to the unwavering generosity of our patrons, we have already made great strides, but our journey continues.</p>
         </div>
       {/* Add page content */}
       

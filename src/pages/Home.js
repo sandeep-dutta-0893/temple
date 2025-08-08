@@ -18,15 +18,34 @@ function Home() {
       <div className="banner-wrap" role="status" aria-live="polite">
         <div className="banner-track">
           <span className="banner-text">
-            Join us in Saamuhika Upakarma and Varalakshmi Vratam celebrations on August 8th. For registration details kindly contact us
+            Join us in Saamuhika Upakarma and Varalakshmi Vratam celebrations on August 8th. For registration details kindly contact us.
           </span>
           {/* duplicate for seamless loop */}
           <span className="banner-text" aria-hidden="true">
             Join us in Saamuhika Upakarma and Varalakshmi Vratam celebrations on August 8th. For registration details kindly contact us.
           </span>
+          <span className="banner-text" aria-hidden="true">
+            Join us in Saamuhika Upakarma and Varalakshmi Vratam celebrations on August 8th. For registration details kindly contact us.
+          </span>
         </div>
       </div>
-            
+<br></br>
+
+      <div className="banner-wrap" role="status" aria-live="polite">
+        <div className="banner-track">
+          <span className="banner-text">
+            Vishnu Sahasranamam and Hanuman Chalisa Paarayanam on every Tuesday & Saturday.
+          </span>
+          {/* duplicate for seamless loop */}
+          <span className="banner-text" aria-hidden="true">
+            Vishnu Sahasranamam and Hanuman Chalisa Paarayanam on every Tuesday & Saturday.
+          </span>
+          <span className="banner-text" aria-hidden="true">
+            Vishnu Sahasranamam and Hanuman Chalisa Paarayanam on every Tuesday & Saturday.
+          </span>
+        </div>
+      </div>
+            <br></br>
        <Carousel autoPlay interval={5000} infiniteLoop  showThumbs={false} className="custom-carousel">
         {images.map((image, index) => (
           <div key={index}>
