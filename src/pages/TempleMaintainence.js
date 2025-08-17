@@ -18,7 +18,7 @@ function TempleMaintenance() {
           <div className="title" style={{color:'#fff', background: 'radial-gradient(circle, #ecc655, #b7412a)'}}><h3>One Time Donation</h3></div>
             <table>
               <tr><td><h4>Donate today</h4></td><td  style={{ paddingRight:'20px' }}><button onClick={() => openLink('https://www.zeffy.com/donation-form/yoga-hanuman-cultural-society-contribute-towrards-temple-expansion-plan-and-assit-in-moving-from-rented-permises')}>
-              Click to Donate an amount for today
+              Click to Donate today
             </button></td></tr>
             
             <tr><td><img src={require('./IconImages/InteracLogo 1.png')} alt="Interac logo" style={{ width:'40px',marginLeft: '10px' }} />
@@ -35,7 +35,7 @@ function TempleMaintenance() {
           <div className="title" style={{color:'#fff', background: 'radial-gradient(circle, #ecc655, #b7412a)'}}><h3>Monthly Donations</h3></div>
             <table>
               <tr><td style={{textAlign:'center'}}><h4>Donate Monthly</h4></td><td style={{ paddingRight:'20px' }}><button onClick={() => openLink('https://www.zeffy.com/donation-form/investing-in-our-community-support-sri-yoga-hanuman-cultural-society')}>
-              Click for Monthly Donation details
+              Click for Monthly Donation
             </button></td></tr>
             </table>
             <div style={{ display: 'flex', justifyContent: 'flex-start', alignItems: 'center', marginRight: '60px' }}>
