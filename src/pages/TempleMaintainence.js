@@ -34,8 +34,8 @@ function TempleMaintenance() {
           <div className="card" style={{ backgroundColor: '#F9E076', height: 'auto', width:'auto' }}>
           <div className="title" style={{color:'#fff', background: 'radial-gradient(circle, #ecc655, #b7412a)'}}><h3>Monthly Donations</h3></div>
             <table>
-              <tr><td><h4>Donate Monthly</h4></td><td style={{ paddingRight:'20px' }}><button onClick={() => openLink('https://www.zeffy.com/donation-form/investing-in-our-community-support-sri-yoga-hanuman-cultural-society')}>
-              Click to Donate monthly</button></td></tr>
+              <tr><td><h4>Donate monthly</h4></td><td style={{ paddingRight:'20px' }}><button onClick={() => openLink('https://www.zeffy.com/donation-form/investing-in-our-community-support-sri-yoga-hanuman-cultural-society')}>
+              Click to Donate Monthly</button></td></tr>
             </table>
             <div style={{ display: 'flex', justifyContent: 'flex-start', alignItems: 'center', marginRight: '60px' }}>
                   <img src={require('./IconImages/InteracLogo 1.png')} alt="Interac logo" style={{ width:'60px', marginLeft: '10px' }} />
