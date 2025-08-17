@@ -34,7 +34,7 @@ function TempleMaintenance() {
           <div className="card" style={{ backgroundColor: '#F9E076', height: 'auto', width:'auto' }}>
           <div className="title" style={{color:'#fff', background: 'radial-gradient(circle, #ecc655, #b7412a)'}}><h3>Monthly Donations</h3></div>
             <table>
-              <tr><td style={{textAlign:'center'}}><h4>Donate Monthly</h4></td><td style={{ paddingRight:'20px' }}><button onClick={() => openLink('https://www.zeffy.com/donation-form/investing-in-our-community-support-sri-yoga-hanuman-cultural-society')}>
+              <tr><td><h4>Donate Monthly</h4></td><td style={{ paddingRight:'20px' }}><button onClick={() => openLink('https://www.zeffy.com/donation-form/investing-in-our-community-support-sri-yoga-hanuman-cultural-society')}>
               Click to Donate Monthly
             </button></td></tr>
             </table>
