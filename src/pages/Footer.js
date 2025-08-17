@@ -37,7 +37,7 @@ const Footer = () => {
           </tr>
           <tr>
             <td colSpan="2" class="copyright-section">
-              <p>&copy; 2024 By Sri Yoga Hanuman Cultural Society, BC, CA</p>
+              <p>&copy; 2025 By Sri Yoga Hanuman Cultural Society, BC, CA</p>
             </td>
           </tr>
         </tbody>
