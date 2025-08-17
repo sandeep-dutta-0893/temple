@@ -32,7 +32,7 @@ const Footer = () => {
               <a href="https://instagram.com/yogahanumantemplesurrey?igshid=OGQ5ZDc2ODk2ZA==" target="_blank" rel="noopener noreferrer"><AiFillInstagram /></a>
               <a href="https://www.facebook.com/sriyogahanumantemple?mibextid=LQQJ4d" target="_blank" rel="noopener noreferrer"><AiFillFacebook /></a>
               <a href="https://youtube.com/@yogahanumanculturalsociety?si=wbBtGgJkag8NpfMy" target="_blank" rel="noopener noreferrer"><AiFillYoutube /></a>
-              <a href="https://chat.whatsapp.com/CMuu3IemD105rdw2MIz8TJ" target="_blank" rel="noopener noreferrer"><AiOutlineWhatsApp /></a></h3>
+              <a href="https://chat.whatsapp.com/LIwqp2LYYLUKSenubdQ9kr" target="_blank" rel="noopener noreferrer"><AiOutlineWhatsApp /></a></h3>
             </td>
           </tr>
           <tr>
