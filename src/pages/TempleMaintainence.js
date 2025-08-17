@@ -41,7 +41,7 @@ function TempleMaintenance() {
             <div style={{ display: 'flex', justifyContent: 'flex-start', alignItems: 'center', marginRight: '60px' }}>
                   <img src={require('./IconImages/InteracLogo 1.png')} alt="Interac logo" style={{ width:'60px', marginLeft: '10px' }} />
                   &nbsp;<FaEnvelope style={{ margin: '10px' }} />
-                  <b align="left" style={{ margin: '10px' }}>yhbcca@gmail.com</b>
+                  <b align="center" style={{ margin: '10px' }}>yhbcca@gmail.com</b>
                 </div>
            
           </div>
