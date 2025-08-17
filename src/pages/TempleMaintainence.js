@@ -20,18 +20,7 @@ function TempleMaintenance() {
               <tr><td><h4>Donate $1001</h4></td><td  style={{ paddingRight:'20px' }}><button onClick={() => openLink('https://www.zeffy.com/donation-form/yoga-hanuman-cultural-society-contribute-towrards-temple-expansion-plan-and-assit-in-moving-from-rented-permises')}>
               Click to Donate $1001
             </button></td></tr>
-            <tr><td><h4>Donate $501</h4></td><td style={{ paddingRight:'20px' }}><button onClick={() => openLink('https://www.zeffy.com/donation-form/yoga-hanuman-cultural-society-contribute-towrards-temple-expansion-plan-and-assit-in-moving-from-rented-permises')}>
-              Click to Donate $501
-            </button></td></tr>
-            <tr><td><h4>Donate $101</h4></td><td style={{ paddingRight:'20px' }}><button onClick={() => openLink('https://www.zeffy.com/donation-form/yoga-hanuman-cultural-society-contribute-towrards-temple-expansion-plan-and-assit-in-moving-from-rented-permises')}>
-              Click to Donate $101
-            </button></td></tr>
-            <tr><td><h4>Donate $51</h4></td><td style={{ paddingRight:'20px' }}><button onClick={() => openLink('https://www.zeffy.com/donation-form/yoga-hanuman-cultural-society-contribute-towrards-temple-expansion-plan-and-assit-in-moving-from-rented-permises')}>
-              Click to Donate $51
-            </button></td></tr>
-            <tr><td><h4>Donate $25</h4></td><td style={{ paddingRight:'20px' }}><button onClick={() => openLink('https://www.zeffy.com/donation-form/yoga-hanuman-cultural-society-contribute-towrards-temple-expansion-plan-and-assit-in-moving-from-rented-permises')}>
-              Click to Donate $25
-            </button></td></tr>
+            
             <tr><td><img src={require('./IconImages/InteracLogo 1.png')} alt="Interac logo" style={{ width:'40px',marginLeft: '10px' }} />
                   </td>
                   <td style={{textAlign:'center'}}><b style={{ margin: '10px' }}>&nbsp;yogahanumantemple@gmail.com</b></td>
@@ -48,21 +37,7 @@ function TempleMaintenance() {
               <tr><td style={{textAlign:'center'}}><h4>SRI VAIKUNTAM $501</h4></td><td style={{ paddingRight:'20px' }}><button onClick={() => openLink('https://www.zeffy.com/donation-form/investing-in-our-community-support-sri-yoga-hanuman-cultural-society')}>
               Click to Donate $501
             </button></td></tr>
-            <tr><td style={{textAlign:'center'}}><h4>SHIVA LOGAM $301</h4></td><td style={{ paddingRight:'20px' }}><button onClick={() => openLink('https://www.zeffy.com/donation-form/investing-in-our-community-support-sri-yoga-hanuman-cultural-society')}>
-              Click to Donate $301
-            </button></td></tr>
-            <tr><td style={{textAlign:'center'}}><h4>SATYA LOGAM $201</h4></td><td style={{ paddingRight:'20px' }}><button onClick={() => openLink('https://www.zeffy.com/donation-form/investing-in-our-community-support-sri-yoga-hanuman-cultural-society')}>
-              Click to Donate $201
-            </button></td></tr>
-            <tr><td style={{textAlign:'center'}}><h4>THAPA LOGAM $101</h4></td><td style={{ paddingRight:'20px' }}><button onClick={() => openLink('https://www.zeffy.com/donation-form/investing-in-our-community-support-sri-yoga-hanuman-cultural-society')}>
-              Click to Donate $101
-            </button></td></tr>
-            <tr><td style={{textAlign:'center'}}><h4>MAHA LOGAM $51</h4></td><td style={{ paddingRight:'20px' }}><button onClick={() => openLink('https://www.zeffy.com/donation-form/investing-in-our-community-support-sri-yoga-hanuman-cultural-society')}>
-              Click to Donate $51
-            </button></td></tr>
-            <tr><td style={{textAlign:'center'}}><h4>BUVA LOGAM &nbsp;$25</h4></td><td style={{ paddingRight:'20px' }}><button onClick={() => openLink('https://www.zeffy.com/donation-form/investing-in-our-community-support-sri-yoga-hanuman-cultural-society')}>
-              Click to Donate $25
-            </button></td></tr></table>
+            </table>
             <div style={{ display: 'flex', justifyContent: 'flex-start', alignItems: 'center', marginRight: '60px' }}>
                   <img src={require('./IconImages/InteracLogo 1.png')} alt="Interac logo" style={{ width:'60px', marginLeft: '10px' }} />
                   &nbsp;<FaEnvelope style={{ margin: '10px' }} />
