@@ -31,6 +31,20 @@ function Home() {
         </div>
       </div>
             <br></br>
+
+            <div className="event-highlight">
+  <h2>Upcoming Event</h2>
+  <video
+    src={require('./IconImages/GaneshChathurthiupdate.mp4')}
+    autoPlay
+    loop
+    muted
+    playsInline
+    className="event-video"
+  />
+  <p className="event-caption">Ganesh Chaturthi Celebration</p>
+</div>
+      <br></br>
        <Carousel autoPlay interval={5000} infiniteLoop  showThumbs={false} className="custom-carousel">
         {images.map((image, index) => (
           <div key={index}>
