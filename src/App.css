@@ -99,6 +99,36 @@ body {
   }
 }
 
+.event-highlight {
+  background: linear-gradient(135deg, #fff3cd, #ffeeba);
+  border: 2px solid #c93114;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 800px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.event-highlight h2 {
+  color: #c93114;
+  margin-bottom: 10px;
+}
+
+.event-video {
+  width: 100%;
+  max-height: 400px;
+  border-radius: 10px;
+  border: 3px solid #24184e;
+}
+
+.event-caption {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #00408a;
+}
+
 
 /* App.css or your custom CSS file */
 
