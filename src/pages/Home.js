@@ -35,7 +35,7 @@ function Home() {
             <div className="event-highlight">
   <h2>Upcoming Event</h2>
   <video
-    src={require('./IconImages/GaneshChathurthiupdate.mp4')}
+    src={require('./IconImages/TEP.mp4')}
     autoPlay
     loop
     muted
