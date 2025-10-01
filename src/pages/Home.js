@@ -33,7 +33,7 @@ function Home() {
             <br></br>
 
             <div className="event-highlight">
-  <h2>Upcoming Event</h2>
+  <h2>Ongoing Event</h2>
   <video
     src={require('./IconImages/TEP.mp4')}
     autoPlay
@@ -42,7 +42,7 @@ function Home() {
     playsInline
     className="event-video"
   />
-  <p className="event-caption">Ganesh Chaturthi Celebration</p>
+  <p className="event-caption">Temple Expansion Project</p>
 </div>
       <br></br>
        <Carousel autoPlay interval={5000} infiniteLoop  showThumbs={false} className="custom-carousel">
