@@ -10,7 +10,10 @@ function importAll(r) {
 }
 // Import all images from the './HomePageImages' folder
 const images = importAll(require.context('./HomePageImages', false, /\.(png|jpe?g|svg|jpg)$/));
+const eventMedia = require('./IconImages/MahaShivaratri.jpg');
+// const eventMedia = require('./IconImages/MahaShivaratri.mp4');
 
+const isVideo = eventMedia.endsWith('.mp4') || eventMedia.endsWith('.webm');
 function Home() {
   return (
     <div class="home-container">
@@ -32,18 +35,29 @@ function Home() {
       </div>
             <br></br>
 
-            <div className="event-highlight">
+  <div className="event-highlight">
   <h2>Event</h2>
-  <video
-    src={require('./IconImages/MahaShivaratri.jpg')}
-    autoPlay
-    loop
-    muted
-    playsInline
-    className="event-video"
-  />
+
+  {isVideo ? (
+    <video
+      src={eventMedia}
+      autoPlay
+      loop
+      muted
+      playsInline
+      className="event-video"
+    />
+  ) : (
+    <img
+      src={eventMedia}
+      alt="Event"
+      className="event-video"
+    />
+  )}
+
   <p className="event-caption">Maha Shivaratri Event</p>
 </div>
+
       <br></br>
        <Carousel autoPlay interval={5000} infiniteLoop  showThumbs={false} className="custom-carousel">
         {images.map((image, index) => (
