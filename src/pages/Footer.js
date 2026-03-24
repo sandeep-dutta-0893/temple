@@ -22,8 +22,9 @@ const Footer = () => {
             </td>
             <td class="right-section">
               <h3>Temple Hours</h3>
-              <p><FaClock />&nbsp;&nbsp;Mon-Sun: 9:30AM to 8:30PM</p>
-              <p>Wednesday: 9:30AM to 12:30PM</p><br></br><br></br>
+              <p><FaClock />&nbsp;&nbsp;Sun,Mon,Thu,Fri: 9:30AM to 1PM and 3PM to 8:30PM</p>
+              <p>Tue & Sat: 9:30AM to 8:30PM</p><br></br><br></br>
+              <p>Wednesday: Closed</p><br></br><br></br>
             </td>
           </tr>
           <tr>
