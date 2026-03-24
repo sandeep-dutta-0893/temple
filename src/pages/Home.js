@@ -10,7 +10,7 @@ function importAll(r) {
 }
 // Import all images from the './HomePageImages' folder
 const images = importAll(require.context('./HomePageImages', false, /\.(png|jpe?g|svg|jpg)$/));
-const eventMedia = require('./IconImages/MahaShivaratri.jpg');
+const eventMedia = require('./IconImages/SriRamaNavami.jpg');
 // const eventMedia = require('./IconImages/MahaShivaratri.mp4');
 
 const isVideo = eventMedia.endsWith('.mp4') || eventMedia.endsWith('.webm');
@@ -55,7 +55,7 @@ function Home() {
     />
   )}
 
-  <p className="event-caption">Maha Shivaratri Event</p>
+  <p className="event-caption">Sri Rama Navami Event</p>
 </div>
 
       <br></br>
